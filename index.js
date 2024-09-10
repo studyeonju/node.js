@@ -10,7 +10,6 @@ app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.json());
 
 
-mongoose.connect('mongodb+srv://yeonju:1234@boilerplate.mfqkt.mongodb.net/?retryWrites=true&w=majority',{
  
 // useNewUrlParser: true,  useUnifiedTopology: true,  useCreateIndex: true,   useFindAndModify: false
 //mongoose 6버전 이상에선 더이상 useNewUrlParser, useUnifiedTopology, useFindAndModify, useCreateIndex 지원 안함
