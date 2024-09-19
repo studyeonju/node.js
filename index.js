@@ -39,7 +39,7 @@ app.post('/register2', async (req,res) => {
     }
   })
   
-  */
+  
 app.post('/register',async (req,res)=> {
   
 try{ 
@@ -52,7 +52,8 @@ try{
   }
 
 })
-/*
+*/
+
 app.post('/register', (req, res) => {
   // 회원가입 시 필요한 정보를 client로부터 받아오기
   const user = new User(req.body);
@@ -70,7 +71,7 @@ app.post('/register', (req, res) => {
       })
   })
 })
-*/
+
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 })
